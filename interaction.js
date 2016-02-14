@@ -3,8 +3,7 @@
 // L'interacteur viendra dans un second temps donc ne vous en souciez pas au départ.
 function DnD(canvas, interactor) {
    // Définir ici les attributs de la 'classe'
-   // Developper les 3 fonctions gérant les événements
-   // Associer les fonctions précédentes aux évènements du canvas.
+
 
    var xPosStart = 0;
    var yPosStart=0;
@@ -14,8 +13,9 @@ function DnD(canvas, interactor) {
    var mouseClicked = false;
 };
 
-
-// Place le point de l'événement evt relativement à la position du canvas.
+ // Developper les 3 fonctions gérant les événements
+ // Associer les fonctions précédentes aux évènements du canvas.
+ // Place le point de l'événement evt relativement à la position du canvas.
 function getMousePosition(canvas, evt) {
   var rect = canvas.getBoundingClientRect();
   return {
